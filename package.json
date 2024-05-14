@@ -1,0 +1,19 @@
+{
+  "name": "binance-trading-bot",
+  "version": "0.0.1",
+  "description": "Binance Trading Bot",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "shark": "npx tsc && node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "api": "^5.0.4",
+    "axios": "^1.2.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.58.0"
+  }
+}
